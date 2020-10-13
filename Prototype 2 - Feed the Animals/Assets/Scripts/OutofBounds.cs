@@ -22,10 +22,11 @@ public class OutofBounds : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if(transform.position.z < lowerBounds)
+        else if(transform.position.z < lowerBounds)
         {
             Destroy(gameObject);
         }
+        
 
     }
 }
